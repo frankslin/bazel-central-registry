@@ -1,0 +1,20 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "cppjieba",
+    hdrs = glob([
+        "include/cppjieba/*.hpp",
+        "deps/limonp/include/limonp/*.hpp",
+    ]),
+    includes = [
+        "deps/limonp/include",
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "dict",
+    srcs = glob(["dict/**"]),
+    visibility = ["//visibility:public"],
+)

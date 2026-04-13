@@ -1,0 +1,21 @@
+{
+    "url": "https://github.com/yanyiwu/cppjieba/archive/refs/tags/v5.6.3.tar.gz",
+    "integrity": "sha256-L1j4hgilUhtHBXzF1Gp5yTKDxhnYHT2JVsM7jpzdhPs=",
+    "strip_prefix": "cppjieba-5.6.3",
+    "overlay": {
+        "BUILD.bazel": "sha256-0rZhBvgXdtIZydaATQItJvTbZQgI+VUrBbdr/AviBqQ=",
+        "MODULE.bazel": "sha256-/m0yEBJ5XOOXObKq2cSuxNQdKIFmbawCbqHm9y8ussE=",
+        "deps/limonp/include/limonp/ArgvContext.hpp": "sha256-qir817yckuBe9d7VddU8EDBpo2VAhCdBj+fiacHfLlQ=",
+        "deps/limonp/include/limonp/Closure.hpp": "sha256-yNfwhu3lZkrSg4T22MJnDC40Mnu03EjQY6kgMFxlXTg=",
+        "deps/limonp/include/limonp/Colors.hpp": "sha256-LLdYeovNgPJOz+unTeLCA8s7VMt4OijN9/nMKtkd8BE=",
+        "deps/limonp/include/limonp/Condition.hpp": "sha256-0U6j4M/V44WwRFDocoxYhxiTXsmyL4i/iF6f6vrksm0=",
+        "deps/limonp/include/limonp/Config.hpp": "sha256-P7Cb7P2ngSx5tIKcrLFxNiqiAj6Nt/40m/cuxeCdDbg=",
+        "deps/limonp/include/limonp/ForcePublic.hpp": "sha256-vCY3tkryPhzNLbJUirrYr0YBv2dUPorJ3ZDChwgU7Ho=",
+        "deps/limonp/include/limonp/LocalVector.hpp": "sha256-Eie97uSEia/+tXrBMOx/EEZ9VL6sRtNQX+rWYtHLUcs=",
+        "deps/limonp/include/limonp/Logging.hpp": "sha256-g4eHkLNAwuKQZwnE1lHHr3kXAcrdsQScK27WiF4bgEs=",
+        "deps/limonp/include/limonp/NonCopyable.hpp": "sha256-7hqE4u/WF3a+zp3JLhBoxxWr0QVyxxvBkKPi1WEXrm8=",
+        "deps/limonp/include/limonp/StdExtension.hpp": "sha256-X1v5bgNvX2eJQJlpduxAoiAwsnT7DZ/VYVluulug6LI=",
+        "deps/limonp/include/limonp/StringUtil.hpp": "sha256-IiuhYVyFYlXCW15NWpPxeANmgFlcLyLddqINdfr6d4o="
+    },
+    "patch_strip": 0
+}
