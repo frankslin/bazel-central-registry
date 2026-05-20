@@ -1,0 +1,10 @@
+{
+    "integrity": "sha256-VfVE0hpvw5atlZ8Zrim7z5kTTWiDX20uVXyYyQlxxQc=",
+    "strip_prefix": "rules_zig-0.14.0",
+    "url": "https://github.com/aherrmann/rules_zig/releases/download/v0.14.0/rules_zig-0.14.0.tar.gz",
+    "patches": {
+        "add_zig_0_14_1.patch": "sha256-mbU3jcwHwi3emDoE9T+o7FubAYuOT3K35xTGkuMvvk0=",
+        "module_dot_bazel_version.patch": "sha256-WDbNrTqXsWK8171E0dgySD8LDD+rwPGU6ptIAUvP0sI="
+    },
+    "patch_strip": 1
+}
